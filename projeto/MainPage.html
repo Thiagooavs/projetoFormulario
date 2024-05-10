@@ -1,61 +1,80 @@
 <!doctype html>
 <html lang="pt-br">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-   
-    <title>le auto</title>
 
-   
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    
-  </head>
-  <body>
-    
-    <form class="form-horizontal">
-        <fieldset>
-        
+  <title>le auto</title>
+
+  <!--Crt A  + Crt KF-->
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"
+    integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+  <Link rel="stylesheet" href="main.css">
+
+
+</head>
+
+<body>
+  <div class="corpo">
+
+    <form class="form-horizontal" action="incluir.php" method="post">
+      <fieldset>
+
         <!-- Form Name -->
-        <legend>Cadastro</legend>
-        
+        <h1>Cadastro</h1>
+
         <!-- Text input-->
         <div class="form-group">
-          <label class="col-md-4 control-label" for="nome">Nome completo</label>  
+          <label class="col-md-4 control-label" for="nome">Nome completo</label>
           <div class="col-md-4">
-          <input id="nome" name="nome" type="text" placeholder="digite seu nome" class="form-control input-md" required="">
-            
+            <input id="nome" name="nome" type="text" placeholder="digite seu nome" class="form-control input-md"
+              required="">
+
           </div>
         </div>
-        
+
         <!-- Text input-->
         <div class="form-group">
-          <label class="col-md-4 control-label" for="Email">Email</label>  
+          <label class="col-md-4 control-label" for="Email">Email</label>
           <div class="col-md-4">
-          <input id="Email" name="Email" type="text" placeholder="...@Gmail.com" class="form-control input-md" required="">
-          <span class="help-block">coloque o email que mais usa</span>  
+            <input id="email" name="email" type="text" placeholder="...@Gmail.com" class="form-control input-md"
+              required="">
+            <span class="help-block">coloque o email que mais usa</span>
           </div>
         </div>
-        
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="data">Data</label>
+          <div class="col-md-2">
+            <input id="data" name="data" type="date" placeholder="dd/mm/aaaa" class="form-control input-md">
+
+          </div>
+        </div>
+
         <!-- Password input-->
         <div class="form-group">
           <label class="col-md-4 control-label" for="senha">Criar senha</label>
           <div class="col-md-2">
-            <input id="senha" name="senha" type="password" placeholder="..." class="form-control input-md" required="">
+            <input id="senha" name="senha" type="password" placeholder="..." maxlength="8" class="form-control input-md" required="">
             <span class="help-block">Não use caracteres especiais</span>
           </div>
         </div>
-        
+
         <!-- Password input-->
         <div class="form-group">
           <label class="col-md-4 control-label" for="confirsenha">Confirmar senha</label>
           <div class="col-md-2">
-            <input id="confirsenha" name="confirsenha" type="password" placeholder="..." class="form-control input-md" required="">
-            
+            <input id="confirsenha" name="confirsenha" type="password" maxlength="8" placeholder="..." class="form-control input-md"
+              required="">
+
           </div>
         </div>
-        
+
         <!-- Select Basic -->
         <div class="form-group">
           <label class="col-md-4 control-label" for="regiao">Região</label>
@@ -84,12 +103,18 @@
             </select>
           </div>
         </div>
-        
-        </fieldset>
-        </form>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
-  </body>
+
+      </fieldset>
+    </form>
+  </div>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+    integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+    crossorigin="anonymous"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"
+    integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
