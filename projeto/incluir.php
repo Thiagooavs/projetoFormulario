@@ -16,7 +16,7 @@
   $confirsenha= $_POST["confirsenha"];
   $regia= $_POST["regiao"];
   
-  $sqlinsert = "insert into tabelaimg (codigo, produto, descricao, data, imagem, valor) values ('$codigo', '$produto', '$descricao', '$data', '$imagem', $valor)";
+  $sqlinsert = "insert into Cadastro (nome, email, data, senha, regiao) values ('$nome', '$email', '$data', '$senha', $regiao)";
 
   $resultado = mysqli_query($conexao, $sqlinsert);
   if (!$resultado){
@@ -30,6 +30,6 @@
 
 ?>
 <br><br>
-<input type='button' onclick="window.location='formulario.html';" value="Voltar">
+<input type='button' onclick="window.location='formulario.html';" value="inicio.html">
 </body>
 </html>-
