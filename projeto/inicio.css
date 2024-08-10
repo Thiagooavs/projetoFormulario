@@ -12,6 +12,7 @@ ul.menu,
         position: absolute;
         display: none;
         box-shadow: 1px 1px 0px #333;
+        background-color: rgb(28, 27, 27);
     }
 
     /*Nivel 1*/
@@ -21,12 +22,14 @@ ul.menu,
         font-size: 15px;
         border-radius: 5px;
         padding: 0 5px;
+        
     }
 
     .menu li {
         float: left;
         width: auto;
         position: relative;
+        
     }
 
 
@@ -36,7 +39,7 @@ ul.menu,
         line-height: 45px;
         height: 45px;
         float: left;
-        transition: all 0.1s linear;
+        transition: all 0.3s linear;
     }
 
     /*nivel 2*/
@@ -58,15 +61,60 @@ ul.menu,
     /*cores nivel1*/
     
     .menu a {
-        color: #000;
+        color: white;
     }
 
     .menu li:hover>a {
         background: #999;
-        color: #fff;
+        color: #424242;
     }
 
     /*Cores nivel 2*/
     /*https://www.webcis.com.br/como-criar-um-menu-horizontal-drop-down-com-4-ate-niveis-utilizando-css.html*/
 
-    
+    /*body{
+        background: url('imagens/caroback.jpg') center center no-repeat fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }*/
+
+      .oferta {
+        background-color: rgba(255, 0, 0, 0.538);
+        padding: 5px 0 2px 10px;
+        color: white;
+       
+      }
+
+     body {
+        background-color: #333;
+        
+        
+     }
+
+     /*Area de video*/
+     .propaganda{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px; 
+        
+     }
+
+     .propaganda video{
+        border: white 2px solid;
+        border-radius: 2em;
+     }
+
+     .selecionar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+     }
+
+     .selecionar img{
+        width: 20%;
+        height: 200px;
+     }
