@@ -114,7 +114,42 @@ ul.menu,
         margin: 20px;
      }
 
-     .selecionar img{
-        width: 20%;
-        height: 200px;
+    
+
+     .selecionar a{
+      width: 15%;
+      margin-right: 10px;
      }
+
+     .selecionar div{
+       width: 100%;
+       margin: 10px;
+       border: white 3px solid;
+       border-radius: 2em;
+       height: 300px;
+     }
+
+     .FoCarro{
+       background: url("elementos/ExpCarro.jpg") no-repeat;
+       background-size: 640px 360px;    
+     }
+
+     .FoMoto{
+        background: url("elementos/ExpMoto.jpg") no-repeat;
+        background-size: 640px 360px;
+        background-position: 30% 50%; 
+     }
+
+     .FoSport{
+        background: url("elementos/ExpSport.jpg") no-repeat;
+       background-size: 640px 360px; 
+     }
+
+     .FoPesado{
+        background: url("elementos/ExpPesado.jpg") no-repeat;
+       background-size: 640px 360px; 
+     }
+
+
+
+
