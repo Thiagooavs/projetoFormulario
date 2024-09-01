@@ -80,12 +80,6 @@ ul.menu,
         background-size: cover;
       }*/
 
-      .oferta {
-        background-color: rgba(255, 0, 0, 0.538);
-        padding: 5px 0 2px 10px;
-        color: white;
-       
-      }
 
      body {
         background-color: #333;
@@ -93,63 +87,12 @@ ul.menu,
         
      }
 
-     /*Area de video*/
-     .propaganda{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 20px; 
-        
-     }
 
-     .propaganda video{
-        border: white 2px solid;
-        border-radius: 2em;
-     }
-
-     .selecionar{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 20px;
-     }
+     .cubo{
+        background-image: url(elementos/Vrun.png);
+    
+        width: 1600px;
+        height: 400px;
+    }
 
     
-
-     .selecionar a{
-      width: 15%;
-      margin-right: 10px;
-     }
-
-     .selecionar div{
-       width: 100%;
-       margin: 10px;
-       border: white 3px solid;
-       border-radius: 2em;
-       height: 300px;
-     }
-
-     .FoCarro{
-       background: url("elementos/ExpCarro.jpg") no-repeat;
-       background-size: 640px 360px;    
-     }
-
-     .FoMoto{
-        background: url("elementos/ExpMoto.jpg") no-repeat;
-        background-size: 640px 360px;
-        background-position: 30% 50%; 
-     }
-
-     .FoSport{
-        background: url("elementos/ExpSport.jpg") no-repeat;
-       background-size: 640px 360px; 
-     }
-
-     .FoPesado{
-        background: url("elementos/ExpPesado.jpg") no-repeat;
-       background-size: 640px 360px; 
-     }
-
-
-
-
